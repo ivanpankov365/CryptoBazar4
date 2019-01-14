@@ -1,0 +1,24 @@
+.nav-wrapper{
+    background: #303952;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.nav-wrapper img{
+    margin: 0;
+}
+body{
+    background: #596275;
+}
+
+.collapsible{
+    background: #596275;
+    border: none;
+}
+.collapsible-header{
+    background: #596275;
+    border: none;
+}
+.collapsible-body{
+    border: none;
+}
