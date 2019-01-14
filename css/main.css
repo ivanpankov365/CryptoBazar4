@@ -44,7 +44,6 @@ body{
 }
 
 .blue-dark{
-    color: white;
     background: #303952;
 }
 .blue-dark:hover{
@@ -52,7 +51,4 @@ body{
 }
 .blue-light{
     background: #596275;
-}
-.btn{
-    color: white;
 }
