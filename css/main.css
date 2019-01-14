@@ -4,9 +4,7 @@
     align-items: center;
     justify-content: center
 }
-.nav-wrapper img{
-    margin: 0;
-}
+
 body{
     background: #596275;
 }
@@ -21,4 +19,40 @@ body{
 }
 .collapsible-body{
     border: none;
+}
+.add-button{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 8%;
+    right: 10%;
+    height: 8%;
+    z-index: 1000;
+}
+.add-button:hover{
+    background: #303952;
+}
+.add-button-form{
+    position: fixed;
+    bottom: 5%;
+    right: -44%;
+    z-index: 1000;
+}
+.none{
+    visibility: hidden;
+}
+
+.blue-dark{
+    color: white;
+    background: #303952;
+}
+.blue-dark:hover{
+    background: #303952;
+}
+.blue-light{
+    background: #596275;
+}
+.btn{
+    color: white;
 }
