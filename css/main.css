@@ -16,7 +16,7 @@ body{
 .collapsible-header{
     background: #414D66;
     font-size: 14px;
-    color: white;
+    color: whitesmoke;
     border: none;
 }
 .collapsible-body{
@@ -32,7 +32,7 @@ body{
     height: 8%;
     z-index: 1000;
 }
-.add-button:hover{
+.add-button:hover, .blue-dark, .blue-dark:hover{
     background: #303952;
 }
 .add-button-form{
@@ -45,12 +45,6 @@ body{
     visibility: hidden;
 }
 
-.blue-dark{
-    background: #303952;
-}
-.blue-dark:hover{
-    background: #303952;
-}
 .blue-light{
     background: #596275;
 }
@@ -67,4 +61,16 @@ body{
 }
 .reg-panel-position{
     margin-top: 40px;
+}
+#upload-btn, #login, #password, #input-file-text, .text-color{
+    color: whitesmoke;
+}
+.no-doc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+#no-doc-text{
+    margin: 0;
 }
