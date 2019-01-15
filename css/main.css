@@ -10,11 +10,13 @@ body{
 }
 
 .collapsible{
-    background: #596275;
+    background: #414D66;
     border: none;
 }
 .collapsible-header{
-    background: #596275;
+    background: #414D66;
+    font-size: 14px;
+    color: white;
     border: none;
 }
 .collapsible-body{
