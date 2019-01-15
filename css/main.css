@@ -52,3 +52,17 @@ body{
 .blue-light{
     background: #596275;
 }
+
+.log-btn{
+    font-size: 12px;
+    width: 100%;
+}
+.card-action{
+    height: 230px;
+}
+.reg-panel{
+    background: #414D66;
+}
+.reg-panel-position{
+    margin-top: 40px;
+}

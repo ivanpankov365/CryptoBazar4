@@ -20,50 +20,34 @@
     </div>
 </nav>
 <div class="container">
-    <ul class="collapsible">
-        <li>
-            <div class="collapsible-header">
-                <i class="material-icons">insert_photo</i>
-                Права
+    <div class="row reg-panel-position">
+        <div class="col s12 m6">
+            <div class="card darken-1 reg-panel">
+                <div class="card-content white-text">
+                    <span class="card-title center">Welcome! </span>
+                </div>
+                <div class="card-action">
+                    <div class="input-field">
+                        <input id="login" type="text" class="validate ">
+                        <label for="login">Login</label>
+                    </div>
+                    <div class="input-field">
+                        <input id="password" type="text" class="validate ">
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col s6">
+                        <a href="main.html" class="waves-effect waves-light btn blue-dark log-btn">Log In</a>
+                    </div>
+                    <div class="col s6">
+                        <a class="waves-effect waves-light btn blue-dark log-btn">Sign Up</a>
+                    </div>
+                </div>
             </div>
-            <div class="collapsible-body">
-                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/doc.jpg"/>
-            </div>
-        </li>
-        <li>
-            <div class="collapsible-header">
-                <i class="material-icons">insert_photo</i>
-                СНИЛС
-            </div>
-            <div class="collapsible-body">
-                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/snils.jpg"/>
-            </div>
-        </li>
-        <li>
-            <div class="collapsible-header">
-                <i class="material-icons">insert_photo</i>
-                Загранпаспорт
-            </div>
-            <div class="collapsible-body">
-                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/passport.jpg"/>
-            </div>
-        </li>
-    </ul>
+        </div>
+    </div>
 
-    <!--<i class="material-icons file-path validate">add</i>-->
-    <a href="addnewdoc.html" class=" btn-large waves-effect add-button blue-dark"><i class="material-icons">add</i></a>
 </div>
 
-<!-- Modal Structure -->
-<div id="modal1" class="modal">
-    <div class="modal-content">
-        <h4>Share it?</h4>
-        <p>Do you want share this document?</p>
-    </div>
-    <div class="modal-footer">
-        <a href="share.html" class="modal-close waves-effect waves-green btn-flat">Agree</a>
-    </div>
-</div>
 
 
 
