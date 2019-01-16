@@ -62,7 +62,7 @@ body{
 .reg-panel-position{
     margin-top: 40px;
 }
-#upload-btn, #login, #password, #input-file-text, .text-color{
+#upload-btn, #login, #password, #input-file-text, .text-color, #time, #public_key{
     color: whitesmoke;
 }
 .no-doc{
