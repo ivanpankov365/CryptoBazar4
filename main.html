@@ -16,14 +16,17 @@
 <body>
 <nav>
     <div class="nav-wrapper">
-        <img src="css/images/Logo.png" height="50" width="280">
+        <img src="css/images/mongodb.png" class="logo" height="50" width="50">
     </div>
 </nav>
 <div class="container">
+    <div class="my-doc-top">
     <h5 class="center text-color">My Docs</h5>
-    <div class="collapsible no-doc" >
-    <p class="text-color" id="no-doc-text">You din’t load any documents</p>
-    </div>
+
+        <div class="collapsible no-doc" >
+            <p class="text-color no-doc-text">You din’t load any documents</p>
+        </div>
+
     <ul class="collapsible">
         <li>
             <div class="collapsible-header">
@@ -53,10 +56,48 @@
             </div>
         </li>
     </ul>
+    </div>
+    <div class="my-doc-top">
+    <h5 class="center text-color">Shared Docs</h5>
+        <div class="collapsible no-doc" >
+
+            <p class="text-color no-doc-text">You din’t load any documents</p>
+        </div>
+
+    <ul class="collapsible shared">
+        <li>
+            <div class="collapsible-header">
+                <i class="material-icons">insert_photo</i>
+                Driver License
+            </div>
+            <div class="collapsible-body">
+                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/doc.jpg"/>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header">
+                <i class="material-icons">insert_photo</i>
+                ID Card
+            </div>
+            <div class="collapsible-body">
+                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/idcard.jpg"/>
+            </div>
+        </li>
+        <li>
+            <div class="collapsible-header">
+                <i class="material-icons">insert_photo</i>
+                International Passport
+            </div>
+            <div class="collapsible-body">
+                <img class="responsive-img modal-trigger"  href="#modal1" src="css/images/passport.jpg"/>
+            </div>
+        </li>
+    </ul>
+    </div>
 
     <!--<i class="material-icons file-path validate">add</i>-->
-    <a href="addnewdoc.html" class=" btn-large waves-effect add-button blue-dark"><i class="material-icons">add</i></a>
 </div>
+<a href="addnewdoc.html" class=" btn-large waves-effect add-button blue-dark" id="add-button"><i class="material-icons">add</i></a>
 
 <!-- Modal Structure -->
 <div id="modal1" class="modal">
